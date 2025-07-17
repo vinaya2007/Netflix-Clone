@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #000;
+}
+
+#im1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    filter: brightness(40%);
+}
+
+.signin img {
+    width: 150px;
+    position: absolute;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main11 img {
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.forgot-container {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+.forgot-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.forgot-form {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.forgot-form label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #979393;
+}
+
+.forgot-form input {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: rgb(54, 50, 50);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+}
+
+.forgot-form input:focus {
+    outline: none;
+    border-color: #c2185b;
+    box-shadow: 0 0 4px #f8bbd0;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(183, 17, 17);
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.back-link a {
+    color: #cdc6c6;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
